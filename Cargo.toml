@@ -1,0 +1,13 @@
+[package]
+name = "zed-git-perfect"
+version = "0.0.1"
+edition = "2021"
+publish = false
+
+[lib]
+# This tells Rust to compile this as a dynamic WebAssembly library
+crate-type = ["cdylib"]
+
+[dependencies]
+# The official Zed extension API bindings
+zed_extension_api = "0.1.0"

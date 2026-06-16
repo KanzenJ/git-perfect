@@ -1,0 +1,17 @@
+{
+  "name": "git-perfect-lsp",
+  "version": "0.0.1",
+  "description": "High-performance LSP server for Git Perfect insights in Zed",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "esbuild lsp/src/server.ts --bundle --platform=node --target=node18 --outfile=dist/server.js"
+  },
+  "dependencies": {
+    "vscode-languageserver": "^9.0.0",
+    "vscode-languageserver-textdocument": "^1.0.11"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "typescript": "^5.0.0"
+  }
+}
