@@ -3,7 +3,7 @@ name = "Git Perfect"
 version = "1.0.0"
 schema_version = 1
 authors = ["Karl Hohls <karl@alphadogdigital.co.za>"]
-description = "Blazingly fast, asynchronous Git insights for Zed."
+description = "High-performance LSP server for Git Perfect insights"
 repository = "https://github.com/KanzenJ/git-perfect"
 license = "MIT"
 [language_servers.git-perfect-lsp]
