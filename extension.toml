@@ -1,0 +1,28 @@
+id = "git-perfect"
+name = "Git Perfect"
+version = "0.0.1"
+schema_version = 1
+authors = ["Karl Hohls <karl@alphadogdigital.co.za>"]
+description = "Blazingly fast, asynchronous Git insights for Zed."
+repository = "https://github.com/KanzenJ/git-perfect"
+
+[language_servers.git-perfect-lsp]
+name = "git-perfect-lsp"
+languages = [
+    "TypeScript",
+    "JavaScript",
+    "TSX",
+    "JSX",
+    "Rust",
+    "PHP",
+    "Go",
+    "Python",
+    "Ruby",
+    "HTML",
+    "CSS",
+    "JSON",
+    "TOML",
+    "YAML",
+    "Markdown",
+    "Shell Script"
+]
