@@ -1,6 +1,6 @@
 {
   "name": "git-perfect-lsp",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "High-performance LSP server for Git Perfect insights in Zed",
   "main": "dist/server.js",
   "scripts": {

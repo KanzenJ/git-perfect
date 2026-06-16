@@ -1,6 +1,6 @@
 id = "git-perfect"
 name = "Git Perfect"
-version = "0.0.1"
+version = "1.0.0"
 schema_version = 1
 authors = ["Karl Hohls <karl@alphadogdigital.co.za>"]
 description = "Blazingly fast, asynchronous Git insights for Zed."
